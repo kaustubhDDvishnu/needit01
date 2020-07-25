@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_what_needed" label="What Needed" language="en" table="x_475636_needit_needit">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_what_needed</element>
+            <help/>
+            <hint/>
+            <label>What Needed</label>
+            <language>en</language>
+            <name>x_475636_needit_needit</name>
+            <plural>What Needed</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-24 09:21:02</sys_created_on>
+            <sys_id>cd2095882fd29050554a59372799b61b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>What Needed</sys_name>
+            <sys_package display_value="NeedIt" source="x_475636_needit">398645c02fd29050554a59372799b629</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">398645c02fd29050554a59372799b629</sys_scope>
+            <sys_update_name>sys_documentation_x_475636_needit_needit_u_what_needed_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-24 09:21:02</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

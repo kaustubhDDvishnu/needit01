@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="state" label="State" language="en" table="x_475636_needit_needit">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <help/>
+            <hint/>
+            <label>State</label>
+            <language>en</language>
+            <name>x_475636_needit_needit</name>
+            <plural>States</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-24 16:50:11</sys_created_on>
+            <sys_id>60f6f60c2fd69050554a59372799b624</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>State</sys_name>
+            <sys_package display_value="NeedIt" source="x_475636_needit">398645c02fd29050554a59372799b629</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">398645c02fd29050554a59372799b629</sys_scope>
+            <sys_update_name>sys_documentation_x_475636_needit_needit_state_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-24 16:54:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
