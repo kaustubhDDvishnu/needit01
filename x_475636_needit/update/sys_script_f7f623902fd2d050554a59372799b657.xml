@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>true</active>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -34,12 +34,12 @@
 var myNum = current.state;
 	
 // The function in this try/catch is not defined
-try{
-	thisFunctionDoesNotExist();
-}
-catch(err){
-	gs.error("NeedIt App: a JavaScript runtime error occurred - " + err);
-}
+//try{
+//	thisFunctionDoesNotExist();
+//}
+//catch(err){
+//	gs.error("NeedIt App: a JavaScript runtime error occurred - " + err);
+//}
 
 // This function is not defined and is not part of a try/catch
    thisFunctionAlsoDoesNotExist();
@@ -70,7 +70,7 @@ callFunc.getNum();
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f7f623902fd2d050554a59372799b657</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>NeedIt Debugging Practice</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_475636_needit">398645c02fd29050554a59372799b629</sys_package>
@@ -78,7 +78,7 @@ callFunc.getNum();
         <sys_scope display_value="NeedIt">398645c02fd29050554a59372799b629</sys_scope>
         <sys_update_name>sys_script_f7f623902fd2d050554a59372799b657</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-25 15:01:31</sys_updated_on>
+        <sys_updated_on>2020-07-25 18:35:09</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
