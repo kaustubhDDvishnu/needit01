@@ -1,34 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description/>
+        <description>Practice debugging techniques in ServiceNow.</description>
         <field>complete</field>
         <global>true</global>
         <isolate_script>false</isolate_script>
         <messages/>
-        <name>Needit onSubmit Example</name>
+        <name>NeedIt Practice Debugging</name>
         <order/>
         <script><![CDATA[function onSubmit() {
-   //Type appropriate comment here, and begin script below
-   alert("Thank you for submitting record in a form");
-}]]></script>
+	try{
+		var x = 7;
+		jslogger("This message is from jslog().");
+		jslog("The value of x = " + x)
+		jslog("The NeedIt State value = " + g_form.getValue('state'));
+		jslog("The currently logged in user is " + g_user.getFullName() + ".");
+				
+						
+ 		g_form.setValue('short_description',g_form.getValue('short_description') + " -  Updated field value");
+	}
+	catch(err){
+		jslogger('A JavaScript runtime error occurred: ' + err.message);
+	}}]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-24 16:26:25</sys_created_on>
+        <sys_created_on>2020-07-26 12:29:58</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>ca31ba082fd69050554a59372799b665</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Needit onSubmit Example</sys_name>
+        <sys_id>c12e4c782f9ed050554a59372799b6de</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>NeedIt Practice Debugging</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_475636_needit">398645c02fd29050554a59372799b629</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">398645c02fd29050554a59372799b629</sys_scope>
-        <sys_update_name>sys_script_client_ca31ba082fd69050554a59372799b665</sys_update_name>
+        <sys_update_name>sys_script_client_c12e4c782f9ed050554a59372799b6de</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-26 12:48:28</sys_updated_on>
+        <sys_updated_on>2020-07-26 12:58:12</sys_updated_on>
         <table>x_475636_needit_needit</table>
         <type>onSubmit</type>
         <ui_type>10</ui_type>
