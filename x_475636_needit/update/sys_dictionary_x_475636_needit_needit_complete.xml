@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>target_field=percent_complete_target,target_threshold_colors=0:#FFC0CB;33:#FFB6C1;66:#FF69B4;90:#FF1493,target_field=target</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -54,14 +54,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-24 11:54:08</sys_created_on>
         <sys_id>d8b179882fd29050554a59372799b612</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>% Complete</sys_name>
         <sys_package display_value="NeedIt" source="x_475636_needit">398645c02fd29050554a59372799b629</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">398645c02fd29050554a59372799b629</sys_scope>
         <sys_update_name>sys_dictionary_x_475636_needit_needit_complete</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-24 11:54:08</sys_updated_on>
+        <sys_updated_on>2020-07-27 02:31:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
-    <sys_report action="INSERT_OR_UPDATE">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_drill">
+    <sys_report_drill action="INSERT_OR_UPDATE">
         <additional_groupby/>
         <aggregate>COUNT</aggregate>
         <allow_data_label_overlap>false</allow_data_label_overlap>
@@ -32,7 +32,7 @@
         <created_by_user display_value=" System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
-        <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
+        <custom_config/>
         <decimal_precision>2</decimal_precision>
         <description/>
         <direction>minimize</direction>
@@ -43,9 +43,8 @@
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
         <field>u_request_type</field>
-        <field_list>number,priority,state,complete,assigned_to,short_description,sys_class_name</field_list>
-        <filter table="x_475636_needit_needit">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-        </filter>
+        <field_list>number,opened_at,short_description,caller_id,priority,state,category,assignment_group,assigned_to,sys_updated_on,sys_updated_by</field_list>
+        <filter/>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
@@ -54,7 +53,7 @@
         <interval>year</interval>
         <is_published>true</is_published>
         <is_real_time>false</is_real_time>
-        <is_scheduled>true</is_scheduled>
+        <is_scheduled>false</is_scheduled>
         <legend_align_columns>true</legend_align_columns>
         <legend_background_color/>
         <legend_border_color/>
@@ -73,7 +72,7 @@
         <others>true</others>
         <page_hdrftr/>
         <pivot_expanded>true</pivot_expanded>
-        <report_drilldown display_value="Drilldown active req report">2270393c2f921450554a59372799b64a</report_drilldown>
+        <report_drilldown/>
         <report_source/>
         <roles>public</roles>
         <row/>
@@ -99,29 +98,29 @@
         <start_time/>
         <style_config/>
         <sumfield/>
-        <sys_class_name>sys_report</sys_class_name>
+        <sys_class_name>sys_report_drill</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-24 12:34:36</sys_created_on>
-        <sys_id>a07c31842f569050554a59372799b6bf</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>Active Needit Requested by Type</sys_name>
+        <sys_created_on>2020-07-26 19:37:44</sys_created_on>
+        <sys_id>2270393c2f921450554a59372799b64a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Drilldown active req report</sys_name>
         <sys_package display_value="NeedIt" source="x_475636_needit">398645c02fd29050554a59372799b629</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">398645c02fd29050554a59372799b629</sys_scope>
-        <sys_update_name>sys_report_a07c31842f569050554a59372799b6bf</sys_update_name>
+        <sys_update_name>sys_report_drill_2270393c2f921450554a59372799b64a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-26 19:58:11</sys_updated_on>
+        <sys_updated_on>2020-07-26 19:38:58</sys_updated_on>
         <table>x_475636_needit_needit</table>
-        <title>Active Needit Requested by Type</title>
+        <title>Drilldown active req report</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
         <trend_field/>
-        <type>donut</type>
+        <type>pie</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <use_null_in_trend>false</use_null_in_trend>
-        <user>GLOBAL</user>
+        <user>6816f79cc0a8016401c5a33be04be441</user>
         <x_axis_allow_decimals>true</x_axis_allow_decimals>
         <x_axis_display_grid>false</x_axis_display_grid>
         <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>
@@ -152,5 +151,5 @@
         <y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color>
         <y_axis_title_size>12</y_axis_title_size>
         <y_axis_to/>
-    </sys_report>
+    </sys_report_drill>
 </record_update>

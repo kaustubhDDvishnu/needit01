@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Needit" max_length="40" name="x_475636_needit_needit" sizeclass="15" type="collection">
-        <element label="% Complete" max_length="15" name="complete" type="percent_complete"/>
+    <element audit="true" extends="task" label="Needit" max_length="40" name="x_475636_needit_needit" sizeclass="26" type="collection">
+        <element attributes="target_field=percent_complete_target,target_threshold_colors=0:#FFC0CB;33:#FFB6C1;66:#FF69B4;90:#FF1493,target_field=target" label="% Complete" max_length="15" name="complete" type="percent_complete"/>
         <element attributes="edge_encryption_enabled=true" label="New Journal" max_length="4000" name="u_journal_4" type="journal"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element attributes="encode_utf8=false" label="Requested For" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
