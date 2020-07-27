@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_targets">
+    <pa_targets action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <aggregate/>
+        <any_element>false</any_element>
+        <breakdown/>
+        <breakdown_level2/>
+        <color_scheme/>
+        <element/>
+        <element_level2/>
+        <indicator display_value="NeedIt: Due Monthly">afc32f342fd61450554a59372799b68f</indicator>
+        <owner/>
+        <sys_class_name>pa_targets</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-27 14:20:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8b81f9c92f1e1450554a59372799b62d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>afc32f342fd61450554a59372799b68f</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_475636_needit">398645c02fd29050554a59372799b629</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">398645c02fd29050554a59372799b629</sys_scope>
+        <sys_update_name>pa_targets_8b81f9c92f1e1450554a59372799b62d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-27 14:21:19</sys_updated_on>
+        <values_modified_at>2020-07-27 14:21:19</values_modified_at>
+    </pa_targets>
+</record_update>

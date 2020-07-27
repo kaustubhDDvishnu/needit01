@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_cubes">
+    <pa_cubes action="INSERT_OR_UPDATE">
+        <benchmarking>false</benchmarking>
+        <conditions table="x_475636_needit_needit">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </conditions>
+        <description> Active NeedIt requests this week</description>
+        <facts_table>x_475636_needit_needit</facts_table>
+        <facts_table_pk/>
+        <facts_table_pktable/>
+        <facts_table_pkview/>
+        <frequency>20</frequency>
+        <name>NeedIt.ActiveWeekly</name>
+        <report_source display_value="Active NeedIt Requests (Needit)">aedd11012f1e1450554a59372799b646</report_source>
+        <report_source_updated_at>2020-07-27 07:56:38</report_source_updated_at>
+        <sys_class_name>pa_cubes</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-27 12:57:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>879d15cd2fda1450554a59372799b675</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt.ActiveWeekly</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_475636_needit">398645c02fd29050554a59372799b629</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">398645c02fd29050554a59372799b629</sys_scope>
+        <sys_update_name>pa_cubes_879d15cd2fda1450554a59372799b675</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-27 12:57:20</sys_updated_on>
+    </pa_cubes>
+    <sys_translated_text action="delete_multiple" query="documentkey=879d15cd2fda1450554a59372799b675"/>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_source">
+    <sys_report_source action="INSERT_OR_UPDATE">
+        <description>report source for source indicator</description>
+        <display>Active NeedIt Requests (Needit)</display>
+        <filter table="x_475636_needit_needit">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </filter>
+        <name>Active NeedIt Requests</name>
+        <sys_class_name>sys_report_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-27 12:56:35</sys_created_on>
+        <sys_id>aedd11012f1e1450554a59372799b646</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Active NeedIt Requests (Needit)</sys_name>
+        <sys_package display_value="NeedIt" source="x_475636_needit">398645c02fd29050554a59372799b629</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">398645c02fd29050554a59372799b629</sys_scope>
+        <sys_update_name>sys_report_source_aedd11012f1e1450554a59372799b646</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-27 12:56:35</sys_updated_on>
+        <table>x_475636_needit_needit</table>
+    </sys_report_source>
+</record_update>
