@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices>7,14,21,28</choices>
+        <description>Number of days a NeedIt Task is overdue before it should automatically close.</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_475636_needit.autoCloseOverdue</name>
+        <read_roles>x_475636_needit.admin</read_roles>
+        <suffix>autoCloseOverdue</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-30 14:57:32</sys_created_on>
+        <sys_id>d746d98e2f92d450554a59372799b6c4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_475636_needit.autoCloseOverdue</sys_name>
+        <sys_package display_value="NeedIt" source="x_475636_needit">398645c02fd29050554a59372799b629</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">398645c02fd29050554a59372799b629</sys_scope>
+        <sys_update_name>sys_properties_d746d98e2f92d450554a59372799b6c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-30 15:07:16</sys_updated_on>
+        <type>choicelist</type>
+        <value>21</value>
+        <write_roles>x_475636_needit.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=d746d98e2f92d450554a59372799b6c4"/>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_policy_rule">
+    <sys_sg_ui_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_other</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_sg_ui_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-08 14:29:01</sys_created_on>
+        <sys_id>64e563f82fa29c50554a59372799b6ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_other</sys_name>
+        <sys_package display_value="NeedIt" source="x_475636_needit">398645c02fd29050554a59372799b629</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">398645c02fd29050554a59372799b629</sys_scope>
+        <sys_update_name>sys_sg_ui_policy_rule_64e563f82fa29c50554a59372799b6ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-08 14:29:01</sys_updated_on>
+        <table>x_475636_needit_needit</table>
+        <ui_policy display_value="Other Field Visibility">7654a7f82fa29c50554a59372799b6cd</ui_policy>
+        <visible>true</visible>
+    </sys_sg_ui_policy_rule>
+</record_update>

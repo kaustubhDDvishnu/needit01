@@ -11,7 +11,7 @@
         <element/>
         <element_level2/>
         <indicator display_value="NeedIt: Due Monthly">afc32f342fd61450554a59372799b68f</indicator>
-        <last_check/>
+        <last_check>20200801</last_check>
         <owner/>
         <sys_class_name>pa_thresholds</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -19,15 +19,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9fcbf1c12f5e1450554a59372799b6dd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>NeedIt: Due Monthly</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_475636_needit">398645c02fd29050554a59372799b629</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">398645c02fd29050554a59372799b629</sys_scope>
         <sys_update_name>pa_thresholds_9fcbf1c12f5e1450554a59372799b6dd</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-27 15:06:50</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-08-01 23:00:03</sys_updated_on>
         <value>2</value>
     </pa_thresholds>
 </record_update>
